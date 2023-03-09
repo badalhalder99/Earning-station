@@ -1,0 +1,719 @@
+/*** 
+
+====================================================================
+  File Name: responsive.css
+====================================================================
+
+***/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.marketInformWrap ul li.socialList{
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.mobileListWrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.mobileListWrap .mobileListItemWrap ul{
+		margin-top: 0px;
+	}
+	.mobileListWrap .mobileListItemWrap ul.topUl{
+		margin-top: 15px;
+	}
+	.developmentWrap{
+		padding-top: 40px;
+		padding-bottom: 10px;
+	}
+	.sliderLeftWrap h2{
+		font-size: 45px;
+		line-height: 50px;
+		margin-bottom: 15px;
+		margin-top: 90px;
+	}
+	.sliderLeftWrap h1{
+		letter-spacing: -2px;
+		font-size: 111px;
+	}
+	.sliderLeftWrap h3{
+		font-size: 40px !important;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.footerSocialIconWrap,.footerMiddleWrap p{
+		text-align: center;
+	}
+	.footerRightWrap p{
+		text-align: center;
+	}
+	.footerMiddleWrap p,.footerRightWrap p{
+		font-size: 12px;
+	}
+	.contactLeftWrap h2{
+		font-size: 32px;
+	}
+	.imginfoWrap .topWrap{
+		margin-bottom: 0px;
+	}
+	.imginfoWrap .topWrap p{
+		margin-bottom: 10px;
+		font-size: 14px
+	}
+	.imginfoWrap .bottomWrap p{
+		margin-bottom: 10px;
+		font-size: 14px
+	}
+	.sliderItemInnerLeftWrap img{
+		width: 130px;
+		height: auto;
+		margin-right: 20px;
+	}
+	.sliderItemInnerRightWrap p{
+		font-size: 15px;
+		text-align: justify;
+		margin-bottom: 15px;
+	}
+	.marketInformWrap ul li.socialList{
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.mobileListWrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.mobileListWrap .mobileListItemWrap ul{
+		margin-top: 0px;
+	}
+	.mobileListWrap .mobileListItemWrap ul.topUl{
+		margin-top: 10px;
+	}
+	.mobileImageInformWrap .mobileImageInformInner p{
+		margin-bottom: .5rem;
+	}
+	.developmentWrap{
+		padding-bottom: 0px;
+	}
+	.sliderLeftWrap{
+		height: 60vw;
+	}
+	.sliderLeftWrap h2{
+		font-size: 32px;
+		line-height: 24px;
+		margin-bottom: 15px;
+		margin-top: 80px;
+	}
+	.sliderLeftWrap h1{
+		letter-spacing: -2px;
+		font-size: 78px;
+	}
+	.sliderLeftWrap h3{
+		font-size: 29px !important;
+	}
+	.sliderLeftWrap h4{
+		font-size: 37px !important;
+		line-height: 30px !important;
+	}
+	.topSliderWrap .carosuelIndicatorCustom{
+		bottom: 30px;
+	}
+	header .menuWrap ul li a{
+		font-size: 15px;
+	}
+	header .topMenubutton a {
+		font-size: 14px;
+		padding: 8px 12px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.footerSocialIconWrap,.footerMiddleWrap p,.footerRightWrap p{
+		text-align: center;
+	}
+	.footerSocialIconWrap,.footerMiddleWrap p{
+		margin-bottom: 6px;
+	}
+	.footerMiddleWrap p,.footerRightWrap p{
+		font-size: 13px;
+	}
+	.contactLeftWrap{
+		margin-bottom: 35px;
+	}
+	.slideItemLeft, .slideItemRight{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.sliderItemInnerLeftWrap img{
+		width: 230px;
+		height: auto;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.sliderItemInnerRightWrap p{
+		font-size: 15px;
+		text-align: justify;
+		margin-bottom: 15px;
+	}
+	.sliderheadingWrap center h2{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.reviewSection{
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+	.blogHeadingWrap center h2, .techHeadingWrap center h2{
+		font-size: 36px;
+	}
+	.blogItemWrap{
+		height: auto;
+	}
+	.blogItemWrap a img{
+		width: 100%;
+	}
+	.bottomRow{
+		margin-top: 14px;
+	}
+	.conceptHeadingWrap center h2{
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.conceptItemWrap p{
+		margin-bottom: 15px;
+	}
+	.marketInformWrap{
+		margin-bottom: 50px;
+	}
+	.enterpriceImgWrap{
+		margin-bottom: 10px;
+	}
+	.enterpriceWrap{
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.mobileImageWrap img{
+		margin-bottom: 30px;
+	}
+	.developmentWrap{
+		padding-bottom: 10px;
+	}
+	.developmentImgWrap img{
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	.columnReverse{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	.mobileWrap{
+		padding-top: 15px;
+		padding-bottom: 5px;
+	}
+	.mobileImageWrap{
+		margin-top: 20px;
+	}
+	.developmentListWrap .developmentListItemWrap ul{
+		margin-bottom: 0px;
+	}
+	.sliderLeftWrap{
+		padding-bottom: 50px;
+		height: 50%;
+	}
+	.sliderLeftWrap h2{
+		font-size: 32px;
+		line-height: 24px;
+		margin-bottom: 15px;
+		margin-top: 70px;
+		text-align: center;
+	}
+	.sliderLeftWrap h1{
+		letter-spacing: -2px;
+		font-size: 78px;
+		text-align: center;
+	}
+	.sliderLeftWrap h3{
+		font-size: 29px !important;
+		text-align: center;
+	}
+	.sliderLeftWrap h4{
+		font-size: 37px !important;
+		line-height: 30px !important;
+		text-align: center;
+	}
+	.sliderLeftWrap{
+		padding-bottom: 30px;
+	}
+	.navbar .nav-container .nav-right{
+		display: none;
+	}
+	.navbar .nav-container .navbar-brand img{
+		width: 140px;
+	}
+	.sliderLeftWrap .sliderRow{
+		margin-top: 10px;
+	}
+}
+@media (max-width: 565px) {
+	.slideItemLeft, .slideItemRight{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.sliderItemInnerLeftWrap img{
+		width: 190px;
+		height: auto;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.sliderItemInnerRightWrap p{
+		font-size: 14px;
+		text-align: justify;
+		margin-bottom: 15px;
+	}
+	.sliderheadingWrap center h2{
+		font-size: 27px;
+	}
+	.reviewSection{
+		padding-top: 30px;
+		padding-bottom: 60px;
+	}
+	.blogHeadingWrap center h2, .techHeadingWrap center h2{
+		font-size: 28px;
+	}
+	.blogItemWrap{
+		height: auto;
+	}
+	.blogItemWrap a img{
+		width: 100%;
+	}
+	.bottomRow{
+		margin-top: 14px;
+	}
+	.conceptHeadingWrap center h2{
+		font-size: 28px;
+		line-height: 30px;
+	}
+	.conceptItemWrap p{
+		margin-bottom: 15px;
+	}
+	.marketInformWrap{
+		margin-bottom: 40px;
+	}
+	.marketInformWrap h2{
+		font-size: 28px;
+	}
+	.marketInformWrap ul li.socialList{
+		margin-right: 20px;
+	}
+	.enterpriceImgWrap{
+		margin-bottom: 10px;
+	}
+	.enterpriceWrap{
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.mobileImageInformWrap .mobileImageInformInner h4{
+		font-size: 1.5rem;
+	}
+	.mobileImageInformWrap .mobileImageInformInner p{
+		font-size: 14px;
+	}
+	.mobileListWrap .mobileListItemWrap ul li a{
+		font-size: 14px;
+	}
+	.mobileListWrap .mobileListItemWrap ul{
+		margin-top: 10px;
+	}
+	.mobileImageInformWrap .mobileImageInformInner p{
+		margin-bottom: .5rem;
+	}
+	.mobileWrap{
+		padding-top: 15px;
+		padding-bottom: 5px;
+	}
+	.developmentHeadingWrap center h2{
+		font-size: 28px;
+	}
+	.webDesignWrap .mobileImageInformWrap .mobileImageInformInner h2{
+		font-size: 28px;
+	}
+	.softwareInformWrap h6{
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.softwareInformWrap h2{
+		font-size: 28px;
+		line-height: 40px;
+		margin-bottom: 18px;
+	}
+	.softwareInformWrap p{
+		font-size: 14px;
+	}
+	.softwareInformWrap a{
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+	.softwareWrap{
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.sliderLeftWrap{
+		padding-bottom: 50px;
+		height: 50%;
+	}
+	.sliderLeftWrap h2{
+		font-size: 26px;
+		line-height: 22px;
+		margin-bottom: 15px;
+		margin-top: 70px;
+		text-align: center;
+	}
+	.sliderLeftWrap h1{
+		letter-spacing: -2px;
+		font-size: 62px;
+		text-align: center;
+	}
+	.sliderLeftWrap h3{
+		font-size: 26px !important;
+		text-align: center;
+	}
+	.sliderLeftWrap h4{
+		font-size: 32px !important;
+		line-height: 30px !important;
+		text-align: center;
+	}
+	.sliderLeftWrap{
+		padding-bottom: 30px;
+	}
+	.topSliderWrap .topSliderMainWrap{
+		justify-content: space-between;
+	}
+	.navbar .nav-container .navbar-brand img{
+		width: 130px;
+	}	
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.footerSocialIconWrap,.footerMiddleWrap p,.footerRightWrap p{
+		text-align: center;
+	}
+	.footerSocialIconWrap,.footerMiddleWrap p{
+		margin-bottom: 5px;
+	}
+	.contactLeftWrap{
+		margin-bottom: 35px;
+	}
+	.slideItemLeft, .slideItemRight{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.slideItemWrap .mobileSliderHidden{
+		display: none;
+	}
+	.sliderItemInnerLeftWrap img{
+		width: 100%;
+		height: auto;
+		margin-right: 20px;
+		margin-bottom: 10px;
+	}
+	.sliderItemInnerRightWrap p{
+		font-size: 14px;
+		text-align: justify;
+		margin-bottom: 15px;
+		margin-top: 110px;
+	}
+	.sliderheadingWrap center h2{
+		font-size: 21px;
+	}
+	.reviewSection{
+		padding-top: 30px;
+		padding-bottom: 70px;
+	}
+	.blogHeadingWrap center h2{
+		font-size: 26px;
+	}
+	.techHeadingWrap center h2{
+		font-size: 26px;
+	}
+	.blogItemWrap{
+		height: auto;
+	}
+	.blogItemWrap a img{
+		width: 100%;
+	}
+	.bottomRow{
+		margin-top: 14px;
+	}
+	.techWrap{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.conceptHeadingWrap center h2{
+		font-size: 26px;
+		line-height: 30px;
+	}
+	.conceptItemWrap p{
+		margin-bottom: 10px;
+	}
+	.marketInformWrap{
+		margin-bottom: 30px;
+	}
+	.marketInformWrap h2{
+		font-size: 26px;
+	}
+	.marketInformWrap p{
+		font-size: 14px;
+		margin-bottom: 15px;
+		line-height: 24px;
+	}
+	.marketInformWrap ul li.socialList{
+		margin-bottom: 10px;
+	}
+	.marketInformWrap ul.topList{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.marketInformWrap ul li a{
+		font-size : 14px;
+	}
+	.marketInformWrap ul li.socialList{
+		margin-right: 21px;
+	}
+	.enterpriceImgWrap{
+		margin-bottom: 30px;
+	}
+	.enterpriceWrap{
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+	.enterpriceInformWrap ul li a{
+		font-size : 14px;
+	}
+	.enterpriceInformWrapp{
+		font-size : 14px;
+	}
+	.enterpriceInformWrap h4{
+		font-size: 1.325rem;
+	}
+	.enterpriceWrap{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.mobileListWrap{
+		display: flex;
+		flex-direction: column;
+	}
+	.mobileListWrap .mobileListItemWrap ul{
+		margin-top: 0px;
+	}
+	.mobileListWrap .mobileListItemWrap ul.topUl{
+		margin-top: 12px;
+	}
+	.mobileWrap{
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.developmentWrap{
+		padding-top: 20px;
+	}
+	.mobileImageInformWrap .mobileImageInformInner h4{
+		font-size:1.35rem;
+	}   
+	.developmentHeadingWrap center h2{
+		font-size: 26px;
+	}
+	.webDesignWrap .mobileImageInformWrap .mobileImageInformInner h2{
+		font-size: 26px;
+	}
+	.softwareInformWrap h6{
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.softwareInformWrap h2{
+		font-size: 26px;
+		line-height: 40px;
+		margin-bottom: 15px;
+	}
+	.softwareInformWrap p{
+		font-size: 14px;
+	}
+	.softwareInformWrap a{
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+	.softwareWrap{
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.topSliderWrap .topSliderMainWrap{
+		justify-content: space-between;
+	}
+	.navbar .nav-container .navbar-brand img{
+		width: 120px;
+	}
+}
+@media (max-width: 440px) {
+	.sliderItemInnerLeftWrap img{
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.sliderItemInnerRightWrap p{
+		margin-top: 80px;
+	}
+	.techHeadingWrap center h2{
+		font-size: 28px;
+	}
+}
+@media (max-width: 400px) {
+	.sliderItemInnerRightWrap p{
+		margin-top: 40px;
+	}
+	.techHeadingWrap center h2{
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.developmentHeadingWrap center h2{
+		font-size: 26px;
+		margin-bottom :0px;
+	}
+}
+@media (max-width: 380px) {
+	.sliderItemInnerRightWrap p{
+		margin-top: 20px;
+	}
+	.reviewSection{
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+	.sliderItemInnerRightWrap h6{
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 300px) {
+	.footerSocialIconWrap, .footerMiddleWrap p, .footerRightWrap p{
+		text-align: center;
+	}
+	.footerSocialIconWrap,.footerMiddleWrap p{
+		margin-bottom: 5px;
+	}
+	.contactLeftWrap{
+		margin-bottom: 30px;
+	}
+	.slideItemLeft, .slideItemRight{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.slideItemWrap .mobileSliderHidden{
+		display: none;
+	}
+	.sliderItemInnerLeftWrap img{
+		width: 90%;
+		height: auto;
+		margin-right: 20px;
+		margin-bottom: 30px;
+	}
+	.sliderItemInnerRightWrap p{
+		font-size: 14px;
+		text-align: justify;
+		margin-bottom: 15px;
+		margin-top: 110px;
+	}
+	.sliderItemInnerRightWrap p{
+		margin-top: 10px;
+	}
+	.sliderItemInnerLeftWrap img{
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.sliderheadingWrap center h2{
+		font-size: 19px;
+	}
+	.reviewSection{
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+	.sliderItemInnerRightWrap h6{
+		margin-bottom: 10px;
+	}
+	.blogHeadingWrap center h2, .techHeadingWrap center h2{
+		font-size: 24px;
+	}
+	.blogItemWrap{
+		height: auto;
+	}
+	.blogItemWrap a img{
+		width: 100%;
+	}
+	.techWrap{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.conceptHeadingWrap center h2{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.conceptItemWrap p{
+		margin-bottom: 10px;
+	}
+	.marketInformWrap{
+		margin-bottom: 30px;
+	}
+	.marketInformWrap h2{
+		font-size: 24px;
+	}
+	.marketInformWrap p{
+		font-size: 14px;
+	}
+	.enterpriceWrap{
+		padding-top: 25px;
+		padding-bottom: 5px;
+	}
+	.ecommerceWrap{
+		padding-top: 25px;
+		padding-bottom: 5px;
+	}
+	.developmentHeadingWrap center h2{
+		font-size: 24px;
+	}
+	.webDesignWrap .mobileImageInformWrap .mobileImageInformInner h2{
+		font-size: 24px;
+	}
+	.softwareInformWrap h6{
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.softwareInformWrap h2{
+		font-size: 26px;
+		line-height: 40px;
+		margin-bottom: 15px;
+	}
+	.softwareInformWrap p{
+		font-size: 14px;
+	}
+	.softwareInformWrap a{
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+	.softwareWrap{
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}
+	.topSliderWrap .topSliderMainWrap{
+		justify-content: space-between;
+	}
+}
+/*.....................responsive css file.............................*/

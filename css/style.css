@@ -1,0 +1,1151 @@
+/*....................................................................
+		File Name: style.css
+.....................................................................*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Exo+2:wght@300;400;500;600;700&family=Heebo:wght@200;300&family=Inter&family=Khula:wght@400;600;700;800&family=Lekton&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500;700;900&family=Space+Mono&family=Syncopate:wght@400;700&family=Work+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Exo+2:wght@300;400;500;600;700&family=Heebo:wght@200;300&family=Inter&family=Khula:wght@400;600;700;800&family=Lekton&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;700;800&family=Roboto:wght@300;400;500;700;900&family=Space+Mono&family=Syncopate:wght@400;700&family=Work+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Exo+2:wght@300;400;500;600;700&family=Heebo:wght@200;300&family=Inter&family=Khula:wght@400;600;700;800&family=Lekton&family=Montserrat:wght@500;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300;700;800&family=Roboto:wght@300;400;500;700;900&family=Space+Mono&family=Syncopate:wght@400;700&family=Work+Sans:wght@500&display=swap');
+/*--------------------------------------------------------------
+				***General***
+--------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: none !important;
+	box-sizing: border-box;
+}
+html,
+body {
+	background: #fff;
+	color: #2F2F2F;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: normal;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+a {
+	text-decoration: none !important;
+	outline: none !important;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;	
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	color: #000;
+}
+a:hover,
+a:active,
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+p {
+	padding: 0;
+	margin: 0 0 30px 0;
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+	margin: 0 0 20px 0;
+	padding: 0;
+	line-height: 1.2;
+	font-family: 'Poppins', sans-serif;
+	/*font-family: 'Khula', sans-serif;*/
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+/*....................................................................
+		***header section start(index page)***
+.....................................................................*/
+/*...........heder total............*/
+header{
+	background: #0085F1;
+	z-index: 10;
+}
+/*............heder left.............*/
+.navbar .nav-container .navbar-brand img{
+	width: 150px;
+}
+/*heder middle*/
+header .menuWrap{
+	justify-content: center;
+}
+header .menuWrap ul li a{
+	color: white;
+	font-size: 16px;
+}
+header .menuWrap ul li a:hover{
+	color: #000;
+}
+header .menuWrap ul li a i{
+	margin-top: 2px;
+	vertical-align: -2px;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+	padding-left: .6rem;
+	padding-right: .6rem;	
+}
+header .menuWrap ul li{
+	position: relative;
+}
+header .menuWrap ul li ul{
+	position: absolute;
+	left: -5555555555555555px;
+	background: #E5F2FC;
+	width: 230px;
+	padding: 25px 20px;
+	z-index: 15;
+}
+header .menuWrap ul li ul li:not(:last-child){
+	margin-bottom: 15px;
+}
+header .menuWrap ul li ul li a {
+	color: black;
+}
+header .menuWrap ul li ul li a:hover{
+	color: blue;
+}
+header .menuWrap ul li:hover ul{
+	left: 0;
+	z-index: 15;
+}
+/*.............heder right..............*/
+header .topMenubutton a {
+	font-size: 14px;
+	border-radius: 30px;
+	padding: 8px 15px;
+	background: white;
+	color: blue;
+}
+
+/*....................................................................
+		***slider section start(index page)***
+.....................................................................*/
+.sliderLeftWrap{
+	height: 52vw;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background: #0085F1;
+	position: relative;
+}
+.sliderLeftWrap::before{
+	content: "";
+	height: 100%;
+    width: 100%;
+    background: url(../img/shape-12.svg);	
+    background-size: contain;
+	opacity: 0.06;
+    background-position: center center;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.sliderLeftWrap .sliderRow{
+	margin-top: 80px;
+}
+.sliderLeftWrap h2{
+	color: #fff;
+    font-size: 48px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+	margin-top: 100px;
+}
+.sliderLeftWrap h1{
+	margin-bottom: unset;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    -webkit-text-stroke: 2px #ffcc59;
+    color: #035bdd;
+    font-size: 111px;
+}
+.sliderLeftWrap h3{
+	-webkit-text-stroke: 2px #035bdd !important;
+    color: #f9cc58 !important;
+	font-weight: 700;
+    text-align: center;
+    font-size: 48px !important;
+}
+.sliderLeftWrap h4{
+	font-size: 37px !important;
+    color: #fff !important;
+    -webkit-text-stroke: 0px #ffcc59 !important;
+    line-height: 30px !important;
+    text-align: right;
+	font-weight: 700;
+}
+.topslidercolumn{
+	align-items: center;
+}
+.topSliderWrap .topSliderMainWrap{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+.topSliderWrap .topSliderMainWrap .topsliderItemWrap img{
+	width: 250px;
+}
+.topSliderWrap .topSliderMainWrap .topsliderItemWrap h6{
+	text-align: center;
+	color: #fff;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 1.2;
+	padding: 20px 20px 35px;
+}
+.topSliderWrap .carosuelIndicatorCustom{
+	bottom: 0px;
+}
+
+/*....................................................................
+		***countryNumberImgWrap section start(index page)***
+.....................................................................*/
+.countryNumberWrap{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.countryNumberImgWrap{
+	padding: 13px 10px;
+	background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
+}
+.countryNumberImgWrap center img{
+	width: 32px;
+	margin-right: 5px;
+}
+.countryNumberImgWrap center img.gmail{
+	width: 25px;
+}
+.countryNumberImgWrap center span{
+	
+}
+/*....................................................................
+		***software section start(index page)***
+.....................................................................*/
+.softwareWrap{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.softwareInformWrap{
+	margin-bottom: 20px;
+}
+.softwareInformWrap h6{
+	font-size: 14px;
+    font-weight: 500;
+    color: #007ee5;
+    margin-bottom: 20px;
+    letter-spacing: 1.4px;
+    line-height: 0.8;
+}
+.softwareInformWrap h2{
+	color: #007ee5;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.softwareInformWrap h2 span{
+	color: #689f38;
+}
+.softwareInformWrap hr{
+	width: 45px;
+    background: #689F38;
+    height: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.softwareInformWrap p{
+	margin-bottom: 1rem;
+    color: #131313;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+}
+.softwareInformWrap a{
+	font-size: 16px;
+    color: white;
+    border-radius: 30px;
+    background: blue;
+	border: 1px solid blue;
+    padding: 12px 26px;
+    transition: all 0.45s ease-Out;	
+}
+.softwareInformWrap a i{
+	font-size: 14px;
+}
+.softwareInformWrap a:hover{
+	color: blue;
+	background: white;
+	border: 1px solid blue;
+}
+.softwareInformCountWrap{
+	margin-top: 20px;
+}
+.softwareInformCountWrap .softwareCountWrap{
+	display: flex;
+	justify-content: space-around;
+}
+.softwareInformCountWrap .softwareCountWrap .softwareCountItem{
+	width: 45%;
+	margin-bottom: 20px;
+	line-height: 26px;
+    padding: 10px;
+	border-bottom: 4px solid #b0bdff;
+    border-radius: 8px 8px 8px 40px;
+    box-shadow: 0 11px 20px rgb(123 149 162 / 15%);
+}
+.softwareInformCountWrap .softwareCountWrap .softwareCountItem2{
+	border-bottom: 4px solid #FFC093;
+}
+.softwareInformCountWrap .softwareCountWrap .softwareCountItem3{
+	border-bottom: 4px solid #FFDAA2;
+}
+.softwareInformCountWrap .softwareCountWrap .softwareCountItem4{
+	border-bottom: 4px solid #9FF3FF;
+}
+
+.softwareInformCountWrap .softwareCountWrap .softwareCountItem img{
+	width: 72px;
+	margin-bottom: 10px;
+}
+.softwareInformCountWrap .softwareCountWrap .softwareCountItem h4{
+	font-size: 1.875rem;
+	margin-bottom: 10px;
+	color: #000;
+	font-weight: 700;
+}
+.softwareInformCountWrap .softwareCountWrap .softwareCountItem p{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*....................................................................
+		***enterprice section start(index page)***
+.....................................................................*/
+.mobileWrap{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.mobileImageColumn{
+	display: flex;
+	align-items: center;
+}
+.mobileImageInformColumn{
+	display: flex;
+	align-items: center;
+}
+.mobileImageInformWrap .mobileImageInformInner h4{
+	text-align: left;
+    margin-bottom: 20px !important;
+    color: #131313 !important;
+	font-weight: 700;
+}
+.mobileImageInformWrap .mobileImageInformInner p{
+	margin-bottom: 1rem;
+	color: #131313;
+	font-size: 15px; 
+	line-height: 25.6px;
+	text-align: justify;
+}
+.mobileListWrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.mobileListWrap .mobileListItemWrap ul{
+	margin-top: 20px;
+    padding-left: 30px;
+}
+.mobileListWrap .mobileListItemWrap ul li a{
+	position: relative;
+	font-size: 15px;
+}
+.mobileListWrap .mobileListItemWrap ul li a::before{
+	content: "";
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-image: url(../img/listIcon.svg);
+    width: 18px;
+    height: 18px;
+}
+/*....................................................................
+		***webdesign section start(index page)***
+.....................................................................*/
+.webDesignWrap{
+	background: #F8FBFE;
+}
+.webDesignWrap .mobileImageInformWrap .mobileImageInformInner h2{
+	font-size: 36px;
+    line-height: 48px;
+    color: #007ee5;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.webDesignWrap .mobileImageInformWrap .mobileImageInformInner h2 span{
+    color: #689F38;
+}
+.mobileImageInformWrap .mobileImageInformInner hr{
+	width: 45px;
+	background: #689F38;
+	height: 3px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.webDesignWrap{
+	position: relative;
+}
+.webDesignWrap .backgroundlabel{
+	position: absolute;
+    color: rgba(29,30,49,.02);
+    top: 20px;
+    left: -2.5%;
+    font-size: calc(55px + 18.75vw);
+    line-height: .8;
+    font-weight: 900;
+    letter-spacing: calc(22.6px + 1.375vw);
+    z-index: 0;
+}
+
+
+
+
+
+
+/*....................................................................
+		***development section start(index page)***
+.....................................................................*/
+.developmentWrap{
+	
+}
+.developmentListWrap{
+	justify-content: flex-start;
+}
+.developmentListWrap .developmentListItemWrap{
+	margin-right: 20px;
+}
+.developmentHeadingWrap center h2{
+	margin-bottom: 15px;
+	font-size: 36px;
+    line-height: 48px;
+    color: #007ee5;
+    font-weight: 700;
+}
+.developmentHeadingWrap center hr{
+	width: 45px;
+	background: #689F38;
+	height: 3px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.developmentHeadingWrap center p{
+	color: black;
+    letter-spacing: -0.5px;
+	margin-bottom: 35px;
+}
+
+/*....................................................................
+		***enterprice section start(index page)***
+.....................................................................*/
+.enterpriceWrap{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.enterpriceImgWrap{
+	margin-bottom: 30px;
+}
+.enterpriceInformWrap h4{
+	text-align: left;
+    margin-bottom: 20px !important;
+    color: #131313 !important;
+	font-weight: 700;
+}
+.enterpriceInformWrap p{
+	margin-bottom: 1rem;
+	color: #131313;
+	font-size: 15px; 
+	line-height: 25.6px;
+	text-align: justify;
+}
+.enterpriceInformWrap ul{
+	margin-top: 25px;
+    padding-left: 30px;
+}
+.enterpriceInformWrap ul li a{
+	position: relative;
+	font-size: 15px;
+}
+.enterpriceInformWrap ul li a::before{
+	content: "";
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-image: url(../img/listIcon.svg);
+    width: 18px;
+    height: 18px;
+}
+.enterpriceInformColum{
+	display: flex;
+	align-items: center;
+}
+.enterpriceImageColum{
+	display: flex;
+	align-items: center;
+}
+
+/*....................................................................
+		***ecommerce section start(index page)***
+.....................................................................*/
+.ecommerceWrap{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+/*....................................................................
+		***market section start(index page)***
+.....................................................................*/
+.marketWrap{
+	padding-top: 30px;
+	background: #FDFEFE;
+}
+.marketWrap2{
+	padding-top: 30px;
+	background: #FCFDFE;
+}
+.marketWrap3{
+	padding-bottom: 50px;
+	background: #F8FBFE;
+}
+.marketRightImgColum{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.marketInformWrap h2{
+	font-size: 36px;
+    line-height: 48px;
+    color: #007ee5;
+    font-weight: 700;
+	margin-bottom: 5px;
+}
+.marketInformWrap hr{
+	width: 45px;
+	background: #689F38;
+	height: 3px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.marketInformWrap p{
+	color: black;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+.marketInformWrap ul li{
+	padding-left: 30px;
+}
+.marketInformWrap ul li.socialList{
+	margin-right: 40px;
+}
+.marketInformWrap ul.topList{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.marketInformWrap ul{
+	margin-bottom: 20px;
+}
+.marketInformWrap ul li a{
+	position: relative;
+}
+.marketInformWrap ul li a::before{
+	content: "";
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    background-image: url(../img/listIcon.svg);
+    width: 18px;
+    height: 18px;
+}
+/*....................................................................
+		***coceptWrap section start(index page)***
+.....................................................................*/
+.coceptWrap{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.conceptHeadingWrap center h6{
+	font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #007ee5;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 1.4px;
+}
+.conceptHeadingWrap center h2{
+	font-size: 36px;
+    line-height: 48px;
+    color: #007ee5;
+    font-weight: 700;
+	margin-bottom: 5px;
+	padding: 0 10px;
+}
+.conceptHeadingWrap center span{
+	color: #689F38;
+}
+.conceptHeadingWrap center hr{
+	width: 45px;
+	background: #689F38;
+	height: 3px;
+	margin-top: 10px;
+}
+.conceptItemWrap{
+	cursor: pointer;
+	border-radius: 12px;
+	box-shadow: 2px 4px 9px 1px rgb(0 0 0 / 9%);
+	padding: 20px;
+	padding-right: 10px;
+	height: 100%;
+	margin-top: 20px;
+}
+.conceptItemWrap1{
+	background: url(../img/hover1.svg), #fff !important;
+    background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap2{
+	background: url(../img/line-2hex-01.svg), #fff !important;
+    background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap3{
+	background: url(../img/Recline.svg), #fff !important;
+    background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap4{
+	background: url(../img/hover1.svg), #fff !important;
+    background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap1:hover{
+	transform: scale(1.01);
+	background: url(../img/Fill-3hex.svg), #fff !important;
+	background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap2:hover{
+	transform: scale(1.01);
+	background: url(../img/Fill-2hex.svg), #fff !important;
+	background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap3:hover{
+	transform: scale(1.01);
+	background: url(../img/rec-fill.svg), #fff !important;
+	background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap4:hover{
+	transform: scale(1.01);
+	background: url(../img/Fill-3hex.svg), #fff !important;
+	background-repeat: no-repeat !important;
+    background-size: 250px !important;
+    background-position: right top !important;
+}
+.conceptItemWrap img{
+	width: 72px;
+    margin-bottom: 20px;
+}
+.conceptItemWrap h4{
+	font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.conceptItemWrap p{
+	line-height: 30px;
+	color: black;
+}
+/*....................................................................
+		***technology section start(index page)***
+.....................................................................*/
+.techWrap{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #E5F2FC;
+}
+.techHeadingWrap center h2{
+	font-size: 36px;
+    line-height: 48px;
+    color: #007EE5;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.techHeadingWrap center h2 span{
+	color: #689F38;
+}
+.techHeadingWrap center hr{
+	width: 45px;
+	background: #689F38;
+	height: 3px;
+	margin-top: 10px;
+}
+.techHeadingWrap center img{
+	margin-top: 15px;
+}
+/*....................................................................
+		***Blog section start(index page)***
+.....................................................................*/
+.blogWrap{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.blogHeadingWrap center h2{
+	font-size: 36px;
+    line-height: 48px;
+    color: #007EE5;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.blogHeadingWrap center h2 span{
+	color: #689F38;
+}
+.blogHeadingWrap center hr{
+	width: 45px;
+	background: #689F38;
+	height: 3px;
+	margin-top: 10px;
+}
+.blogItemWrap{
+	box-shadow: 0 5px 20px rgb(0 41 112 / 10%) !important;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+	height: 100%;
+}
+.blogItemWrap a img{
+	margin-bottom: 20px;
+}
+.blogItemWrap a h4{
+	font-size: 1.125rem;
+	color: #131313;
+	transition: all .5s ease;
+	text-align: center;
+	font-weight: 600;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.blogItemWrap a h4:hover{
+	color: #007EE5;
+}
+.bottomRow{
+	margin-top: 30px;
+}
+/*....................................................................
+		***Review section start(index page)***
+.....................................................................*/
+.reviewSection{
+	padding-top: 50px;
+	padding-bottom: 90px;
+	background: #E5F2FC;
+}
+.slideItemWrap{
+	display: flex;
+	justify-content: space-between;
+}
+.slideItemLeft, .slideItemRight{
+	display: flex;
+}
+.sliderItemInnerLeftWrap img{
+	width: 215px;
+	height: auto;
+	margin-right: 20px;
+}
+.slideItemLeft{
+	margin-right: 15px;
+}
+.slideItemRight{
+	margin-left: 15px;
+}
+.sliderItemInnerRightWrap h6{
+	font-weight: 600;
+}
+.carousel-indicators{
+	bottom: -50px;
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+}
+.carousel-indicators li.active{
+	background: #689F38;
+}
+.carousel-indicators li{
+	background: #fff;
+}
+.sliderheadingWrap center h2{
+	font-size: 36px;
+    line-height: 48px;
+    color: #007ee5;
+    font-weight: 700;
+	margin-bottom: 35px;
+}
+.sliderheadingWrap center h2 span{
+    color: #689F38;
+}
+
+
+
+
+
+
+/*....................................................................
+		***contactWrap section start(index page)***
+.....................................................................*/
+.contactWrap{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url(../img/contactBg.svg) center center repeat fixed;
+}
+.contactWrap .contactLeftWrapCol{
+	display: flex;
+	align-items:center;
+}
+.contactLeftWrap h2{
+	font-size: 36px;
+    line-height: 48px;
+    color: #007ee5;
+    font-weight: 700;
+    margin-bottom: 5px;
+	color: white;
+}
+.contactLeftWrap hr.top{
+	width: 11%;
+    background: white;
+    height: 3px;
+}
+.contactLeftWrap p{
+	font-size: 16px;
+    line-height: 30px;
+	color: white;
+	margin-top: 28px;
+}
+.contactLeftWrap h6{
+	font-size: 20px;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 15px;
+	color: white;
+}
+.contactLeftWrap a.phoneCall{
+	color: white;
+}
+.contactLeftWrap hr.middle, .contactLeftWrap hr.bottom{
+	background: white;
+}
+.memberHeadingWrap center h2{
+	margin-bottom: 7px;
+}
+.memberHeadingWrap center h2, .memberHeadingWrap center p{
+	color: white;
+	font-weight: 600;
+}
+.memberHeadingWrap center p{
+	color: white;
+}
+.memberInformWrap{
+	display: flex;
+	background: #F5F5F5;
+    border-radius: 8px;
+}
+.imgWrap a img{
+	width: 169px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	min-height: 100%;
+}
+.imginfoWrap{
+	padding: 20px;
+	padding-bottom: 8px;
+}
+.imginfoWrap .topWrap h6{
+	color: black;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.imginfoWrap .topWrap{
+	margin-bottom: 30px;
+}
+.imginfoWrap .bottomWrap h6{
+	color: black;
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.imginfoWrap .bottomWrap p{
+	margin-bottom: 0px;
+}
+@media (max-width: 390px) {
+	.imginfoWrap .topWrap{
+		margin-bottom: 0px;
+	}
+	.imginfoWrap .topWrap p{
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+	.imginfoWrap .bottomWrap p{
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 360px) {
+	.imginfoWrap .topWrap{
+		margin-bottom: 0px;
+	}
+	.imginfoWrap .topWrap p{
+		margin-bottom: 20px;
+		font-size: 12px;
+	}
+	.imginfoWrap .topWrap h6{
+		font-size: 15px;
+	}
+	.imginfoWrap .bottomWrap h6{
+		font-size: 15px;
+	}
+	.imginfoWrap{
+		padding: 15px;
+	}
+	.imginfoWrap .bottomWrap p{
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+}
+/*....................................................................
+		***footer section start***
+.....................................................................*/
+.footerBottomWrapper{
+	padding: 12px 0px;
+	background: #000A2C;
+}
+.footerSocialIconWrap ul{
+	margin-bottom: 0px;
+}  
+.footerSocialIconWrap ul li a{
+	display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 1px 6px;
+    font-size: 20px;
+}
+.footerSocialIconWrap ul li a.facebookFooter{
+	background: #246EFD;
+    color: white;
+}
+.footerSocialIconWrap ul li a.twitterFooter{
+	background: #13D5FF;
+    color: white;
+}
+.footerSocialIconWrap ul li a.whatsappFooter{
+	background: #0DC143;
+    color: white;
+}
+.footerMiddleWrap p{
+	color: #fff;
+	margin-bottom: 0;
+	font-size : 14px;
+	margin-top: 4px;
+	text-align: center;
+}
+.footerMiddleWrap p span{
+	color: #007EE5;
+}
+.footerRightWrap p{
+	color: #fff;
+	margin-bottom: 0;
+	font-size : 14px;
+	margin-top: 4px;
+	text-align: right;
+}
+.footerMiddleWrapper{
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: #fff;
+}
+.footerTopWrapper{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background: url(../img/bg.jpg) center bottom no-repeat;
+    background-size: contain;
+}
+.footerTopRowWrap{
+	border-bottom: 1px solid #444;
+}
+.addressWrap{
+	display: flex;
+}
+.addressWrap{
+	margin-bottom: 17px;
+}
+.addressWrap .address i{
+	margin-right: 18px;
+	color: #007EE5;
+	font-size: 17px;
+	margin-bottom: 17px;
+}
+.addressBottomWrap ul li a i{
+	margin-right: 14px;
+	margin-bottom: 17px;
+	color: #007EE5;
+	font-size: 17px;
+}
+.addressBottomWrap2 ul li a i{
+	margin-right: 7px;
+}
+.addressBottomWrap2 ul li a:hover{
+	letter-spacing: .5px;
+	color: #007EE5;
+}
+.addressBottomWrap2 ul li a:hover i{
+	color: #007EE5;
+}
+.addressBottomWrap2 ul li a i{
+	color: #689f38;
+}
+.addressWrap .addressInformation p{
+	margin-top: -4px;
+	margin-bottom: 0px;
+	line-height: 22px;
+	color: #000;
+}
+.addressBottomWrap ul li a{
+	color: black;
+}
+.headingWrapper h4{
+	font-size: 17px;
+    font-weight: 700;
+}
+.headingWrapper hr{
+	margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(104 159 56);
+    width: 20%;
+    left: 0;
+    display: block;
+    margin-left: 0;
+}
+.freeQuoteColWrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.freeQuoteWrap a{
+	background: #007EE5;
+	border: 1px solid #007EE5;
+    padding: 12px 28px;
+    color: white;
+    border-radius: 5px;
+	transition: all .5s ease;
+}
+.freeQuoteWrap a:hover{
+	background: #fff;
+    color: #007EE5;
+	border: 1px solid #007EE5;
+}
+.imageInformWrap .imageWrap img{
+	width: 150px;
+    height: auto;
+}
+.imageInformWrap .imgInformation p{
+	text-align: justify;
+	
+}
+/*.............................................***backTopButton code start***...........................*/
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+  box-shadow: 0 1px 4px rgb(0 35 62 / 81%);
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+  background: #0AB9F2;
+  color: #fff;
+  font-size: 23px;
+  box-shadow: 0 1px 4px rgb(0 35 62 / 81%);
+}
+/*.............................................***backTopButton code end***...........................*/
+
+/*.............................................***Here end style.css file***...........................*/ 
